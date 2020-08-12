@@ -1,1 +1,68 @@
-start
+<html>
+    <head>
+<style>
+    @media only screen and (max-width: 768px) {
+/* For mobile phones: */
+[class*="col-"] { 
+    width: 100%;
+}
+    }
+.flex-container {
+     display: flex;
+     justify-content: center;
+}
+#header {
+    position: fixed;
+    background-color: white;
+
+}
+
+
+</style>
+        <link rel="stylesheet" type="text/css" href="css/custom-style.css">
+    </head>
+
+    <body>
+
+        <header id="header">
+            <center>
+            <img src="http://www.tdcmmaandfitness.com/wp-content/uploads/2018/06/100TDCMMA-and-FIT-horizontal-logo-copy.jpg" id="header-img">
+            <nav id="nav-bar">
+                <a class="nav-link" href="#the-tdc-experience">The TDC Experience</a>
+                <a class="nav-link" href="#tdc-information">TDC Information</a>
+                <a class="nav-link" href="#contact-tdc">Contact TDC</a>
+            </nav>
+            </center>
+        </header>
+
+        <section id="the-tdc-experience">
+            <center>
+            <h1>TDC MMA + Fitness Lifestyle Academy</h1>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/_LwlumFinyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </center>
+        </section>
+
+        <section id="tdc-information">
+            <div class="flex-container">
+                <div><a href="http://www.tdcmmaandfitness.com/store/">Check Out TDC's Store</a></div>
+                <div><a href="https://www.facebook.com/TdcMixedMartialArts/">Check Out Social Media</a></div>
+                <div><a href="http://www.tdcmmaandfitness.com/chicago-gym-reviews/">Check Out the Reviews</a></div>
+            </div>
+        </section>
+
+        <section id="contact-tdc">
+            <center>
+            <h2>Request Additional Information</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                Email:<input id="email" type="email" name="email" placeholder="Enter Email" required>
+                <input id="submit" type="submit"></input>
+            </form>
+            </center>
+        </section>
+
+    
+    </body>
+   
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script
+</html>
